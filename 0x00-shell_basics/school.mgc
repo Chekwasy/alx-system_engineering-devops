@@ -1,2 +1,3 @@
 #!/bin/bash
-file -m SCHOOL
+echo "0 String SCHOOL" > SCHOOL
+file -C -m SCHOOL
