@@ -1,0 +1,2 @@
+#!/bin/bash
+ls -la /data/data/com.termux/files/home/alx-system_engineering-devops/0x00-shell_basics /data/data/com.termux/files/home/alx-system_engineering-devops /boot
