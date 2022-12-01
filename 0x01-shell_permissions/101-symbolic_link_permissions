@@ -1,2 +1,2 @@
-#!/bin/bash
+t#!/bin/bash
 chown -h vicent:staff _hello
