@@ -1,0 +1,7 @@
+total 14
+385242 drwx------ 2 10479 10479 3488 Dec  5 14:16 0x00-shell_basics/
+ 84196 -rw------- 1 10479 10479    0 Dec  5 14:16 README.md
+390557 drwx------ 4 10479 10479 3488 Dec  5 14:16 0x01-shell_permissions/
+322061 drwx------ 2 10479 10479 3488 Dec  7 03:49 0x03-shell_variables_expansions/
+307122 drwx------ 2 10479 10479 3488 Dec  7 04:47 0x02-shell_redirections/
+237330 -rw------- 1 10479 10479    0 Dec  7 09:27 wc
