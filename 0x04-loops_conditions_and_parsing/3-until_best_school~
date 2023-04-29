@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# This script displays Best School 10times using until
+i=0
+until [ $i -gt 9]
+      do
+	echo "Best School"
+	(( "i += 1" ))
+done
