@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+# This display 10 Best school with good luck and bad at 4 & 8 resp
+i=1
+while [ "$i" -le 10 ]
+      do
+	if [ "$i" = 8 ]
+	   then
+	   echo "good luck"
+	elif [ "$i" = 4 ]
+	   then
+	   echo "bad luck"
+	else
+		echo "Best School"
+		fi
+	(( "i += 1" ))
