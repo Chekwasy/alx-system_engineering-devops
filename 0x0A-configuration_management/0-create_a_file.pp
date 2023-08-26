@@ -1,5 +1,6 @@
 # create a file in /tmp
-file { '/tmp/holberton':
+
+file { '/tmp/school':
   ensure  => 'present',
   owner   => 'www-data',
   group   => 'www-data',
