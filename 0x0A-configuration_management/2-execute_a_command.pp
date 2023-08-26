@@ -1,6 +1,6 @@
-# killmenow
+# Executes a command
 exec { 'killmenow':
-  path => [ '/usr/local/sbin', '/usr/sbin', '/usr/bin', '/sbin', '/bin' ],
-  command => 'pkill killmenow',
+  command  => 'pkill killmenow',
+  path     => '/usr/bin',
   provider => 'shell',
   }
