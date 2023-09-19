@@ -1,0 +1,30 @@
+#update things
+sudo apt update
+
+#install mysql server
+sudo apt install mysql-server
+
+#start mysql service
+sudo systemctl start mysql.service
+
+#start mysql
+sudo systemctl start mysql
+
+#enable mysql to run or start on boot up
+sudo systemctl enable mysql
+
+#Applying secure installion
+sudo mysql_secure_installation
+
+#select 0 level password for ease
+
+#remove anounymous user
+#dissallow root loogin like for e.g from another system
+#remove the test database
+#reload the priviledges
+
+
+CREATE USER 'sammy'@'localhost' IDENTIFIED BY 'password';
+
+#check if authuntication socket is on with this
+SELECT * FROM mysql.user WHERE user='root'\G
